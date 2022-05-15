@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NetcatNT - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/Script1.res" /d "NDEBUG" "D:\www\NetcatNT\Script1.rc"" 
+Creating temporary file "C:\Temp\RSPD023.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/NetcatNT.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\www\NetcatNT\netcat.c"
+"D:\www\NetcatNT\doexec.c"
+"D:\www\NetcatNT\getopt.c"
+]
+Creating command line "cl.exe @C:\Temp\RSPD023.tmp" 
+Creating temporary file "C:\Temp\RSPD024.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/NetcatNT.pdb" /machine:I386 /out:"Release/NetcatNT.exe" 
+.\Release\netcat.obj
+.\Release\doexec.obj
+.\Release\getopt.obj
+.\Release\Script1.res
+]
+Creating command line "link.exe @C:\Temp\RSPD024.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+netcat.c
+doexec.c
+getopt.c
+Linking...
+
+
+
+<h3>Results</h3>
+NetcatNT.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

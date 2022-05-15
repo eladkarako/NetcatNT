@@ -1,0 +1,20 @@
+# Microsoft Developer Studio Generated Dependency File, included by NetcatNT.mak
+
+.\doexec.c : \
+	"c:\program files (x86)\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\getopt.c : \
+	".\getopt.h"\
+	
+
+.\netcat.c : \
+	".\generic.h"\
+	".\getopt.h"\
+	"c:\program files (x86)\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\Script1.rc : \
+	".\app.manifest"\
+	".\icon.ico"\
+	

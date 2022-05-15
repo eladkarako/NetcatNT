@@ -1,0 +1,16 @@
+*.exe                     binary
+*.obj                     binary
+*.res                     binary
+*.ico                     binary
+
+*.mak                     text    eol=crlf
+*.rc                      text    eol=crlf
+*.dep                     text    eol=crlf
+*.txt                     text    eol=crlf
+*.h                       text    eol=crlf
+*.c                       text    eol=crlf
+*.old                     text    eol=crlf
+
+
+README.md                         eol=crlf
+
